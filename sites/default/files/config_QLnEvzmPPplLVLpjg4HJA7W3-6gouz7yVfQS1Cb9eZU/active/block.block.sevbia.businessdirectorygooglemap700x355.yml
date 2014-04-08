@@ -1,0 +1,30 @@
+id: sevbia.businessdirectorygooglemap700x355
+uuid: 30f761d9-99ce-45de-aa02-2a3cee2ddf35
+weight: '-22'
+status: '1'
+langcode: en
+region: featured
+plugin: 'custom_block:0f0d2ad9-87a5-4943-a911-17ee70bd3478'
+settings:
+  status: '1'
+  info: ''
+  view_mode: full
+  label: 'Business directory Google Map: 700x355'
+  module: custom_block
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '1'
+    pages: directory
+  role:
+    roles: {  }
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-path

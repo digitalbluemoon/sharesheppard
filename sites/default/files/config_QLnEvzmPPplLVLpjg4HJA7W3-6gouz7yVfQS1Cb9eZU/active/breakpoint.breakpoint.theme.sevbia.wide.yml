@@ -1,0 +1,12 @@
+id: theme.sevbia.wide
+uuid: 7413eab4-d21f-420f-be00-b0be0a8dce97
+name: wide
+label: wide
+mediaQuery: 'all and (min-width: 851px)'
+source: sevbia
+sourceType: theme
+weight: '2'
+multipliers:
+  1x: 1x
+status: '1'
+langcode: en

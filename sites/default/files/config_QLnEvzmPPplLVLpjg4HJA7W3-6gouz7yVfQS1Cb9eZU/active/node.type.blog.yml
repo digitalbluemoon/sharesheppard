@@ -1,0 +1,18 @@
+type: blog
+uuid: 86bdd3f9-7a12-4702-9e00-a0d7b9f76269
+name: Blog
+description: Blog
+help: ''
+has_title: '1'
+title_label: Title
+settings:
+  node:
+    preview: '1'
+    options:
+      status: status
+      promote: promote
+      sticky: '0'
+      revision: '0'
+    submitted: '1'
+status: '1'
+langcode: en

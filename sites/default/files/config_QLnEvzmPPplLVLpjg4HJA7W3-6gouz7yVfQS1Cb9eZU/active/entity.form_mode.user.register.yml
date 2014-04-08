@@ -1,0 +1,6 @@
+id: user.register
+uuid: 564afc81-5c61-429a-a400-e69906236dc4
+label: Register
+targetEntityType: user
+status: '1'
+langcode: en

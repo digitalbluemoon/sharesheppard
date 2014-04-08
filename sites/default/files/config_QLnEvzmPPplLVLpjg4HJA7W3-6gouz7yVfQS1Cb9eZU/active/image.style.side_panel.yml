@@ -1,0 +1,14 @@
+name: side_panel
+label: 'Side panel'
+uuid: 35517f08-03e0-460f-9f00-a879de279fd0
+status: '1'
+langcode: en
+effects:
+  90142d6a-4d07-46c9-a700-0ed5e26f3c64:
+    uuid: 90142d6a-4d07-46c9-a700-0ed5e26f3c64
+    id: image_scale
+    weight: '2'
+    data:
+      width: '220'
+      height: ''
+      upscale: '0'

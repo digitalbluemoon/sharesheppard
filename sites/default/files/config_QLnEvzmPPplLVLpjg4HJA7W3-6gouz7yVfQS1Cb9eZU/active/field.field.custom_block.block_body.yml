@@ -1,0 +1,14 @@
+id: custom_block.block_body
+uuid: e7e3f608-38f2-4f21-aa00-ed248944c789
+status: '1'
+langcode: en
+name: block_body
+entity_type: custom_block
+type: text_with_summary
+settings: {  }
+module: text
+active: '1'
+locked: '0'
+cardinality: '1'
+translatable: '0'
+indexes: {  }

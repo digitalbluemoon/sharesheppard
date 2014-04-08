@@ -1,0 +1,30 @@
+id: sevbia.footercontactinfo
+uuid: 340e3577-7576-4774-bc5a-903fd1b7bfb8
+weight: '-21'
+status: '1'
+langcode: en
+region: footer_fourthcolumn
+plugin: 'custom_block:aad6b52a-bc45-49fa-b900-d95672ec99bb'
+settings:
+  status: '1'
+  info: ''
+  view_mode: full
+  label: 'Footer contact Info'
+  module: custom_block
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '0'
+    pages: ''
+  role:
+    roles: {  }
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-path

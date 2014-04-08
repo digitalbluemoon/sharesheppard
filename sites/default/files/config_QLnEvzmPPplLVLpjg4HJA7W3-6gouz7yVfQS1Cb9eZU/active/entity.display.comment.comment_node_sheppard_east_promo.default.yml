@@ -1,0 +1,11 @@
+id: comment.comment_node_sheppard_east_promo.default
+uuid: 9539e1c9-edef-4a58-b600-a5a9931a7b9d
+targetEntityType: comment
+bundle: comment_node_sheppard_east_promo
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: '0'
+    settings: {  }

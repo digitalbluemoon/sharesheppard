@@ -1,0 +1,8 @@
+id: comment_publish_action
+label: 'Publish comment'
+uuid: 2c06925d-5828-4261-a200-b45c0203f167
+status: '1'
+langcode: en
+type: comment
+plugin: comment_publish_action
+configuration: {  }

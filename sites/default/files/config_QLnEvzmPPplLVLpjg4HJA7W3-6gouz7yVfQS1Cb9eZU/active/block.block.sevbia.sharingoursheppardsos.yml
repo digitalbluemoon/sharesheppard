@@ -1,0 +1,30 @@
+id: sevbia.sharingoursheppardsos
+uuid: c5b49601-d9c0-4eaf-a40b-117381a0d78d
+weight: '-22'
+status: '0'
+langcode: en
+region: '-1'
+plugin: 'custom_block:7a263e1f-993d-4024-ac03-3b14110adf00'
+settings:
+  status: '1'
+  info: ''
+  view_mode: full
+  label: ' Sharing our sheppard SoS'
+  module: custom_block
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '1'
+    pages: '<front>'
+  role:
+    roles: {  }
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-path

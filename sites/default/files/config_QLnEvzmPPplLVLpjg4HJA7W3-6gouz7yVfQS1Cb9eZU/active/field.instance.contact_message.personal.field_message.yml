@@ -1,0 +1,15 @@
+id: contact_message.personal.field_message
+uuid: 10856582-38e4-469d-9a08-8ff635afa9fb
+status: '1'
+langcode: en
+field_uuid: d1e618d2-336b-462d-9d00-bae9ff06435b
+entity_type: contact_message
+bundle: personal
+label: Message
+description: ''
+required: '1'
+default_value: {  }
+default_value_function: ''
+settings:
+  text_processing: '0'
+field_type: text_long

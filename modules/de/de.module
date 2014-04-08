@@ -1,0 +1,11 @@
+<?php
+	function de_entity_load($entities, $types){
+		foreach($entities as $entity){
+			if($entity->bundle() == 'business'){
+				$email = $entity->getTranslation('und')->field_email;
+				$val = $email->getValue();
+				if(!$val[0])
+					$email->setValue($entity->getAuthor()->getEmail());
+			}
+		}
+	}

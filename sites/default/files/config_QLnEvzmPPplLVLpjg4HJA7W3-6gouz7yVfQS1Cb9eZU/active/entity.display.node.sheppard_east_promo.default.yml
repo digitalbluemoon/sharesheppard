@@ -1,0 +1,20 @@
+id: node.sheppard_east_promo.default
+uuid: cf572423-a2bf-4a78-b709-9e6b1eaf5178
+targetEntityType: node
+bundle: sheppard_east_promo
+mode: default
+content:
+  body:
+    type: text_default
+    weight: '0'
+    settings: {  }
+    label: hidden
+  language:
+    visible: '0'
+  field_promo_image:
+    type: image
+    weight: '0'
+    settings:
+      image_style: ''
+      image_link: ''
+    label: hidden

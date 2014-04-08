@@ -1,0 +1,29 @@
+id: sevbia.sheppardeastmap
+uuid: 6a398e6a-1b65-49b7-ad00-a0a239ee536c
+weight: '-9'
+status: '1'
+langcode: en
+region: content_top
+plugin: 'custom_block:a0040d70-1b6f-4a1b-aa61-97884892bc90'
+settings:
+  status: '1'
+  info: ''
+  view_mode: full
+  label: 'Sheppard East Map'
+  module: custom_block
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '1'
+    pages: '<front>'
+  role:
+    roles: {  }
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+  visibility__active_tab: edit-visibility-path

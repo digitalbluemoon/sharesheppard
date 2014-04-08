@@ -1,0 +1,60 @@
+id: node.business.default
+uuid: 90115d83-2ff9-44b9-9b51-81fc287f38bb
+targetEntityType: node
+bundle: business
+mode: default
+content:
+  body:
+    type: text_default
+    weight: '0'
+    settings: {  }
+    label: hidden
+  field_address:
+    type: text_default
+    weight: '2'
+    settings: {  }
+    label: hidden
+  field_phone:
+    type: text_plain
+    weight: '3'
+    settings: {  }
+    label: inline
+  language:
+    visible: '0'
+  field_business_catogory:
+    type: taxonomy_term_reference_link
+    weight: '6'
+    settings: {  }
+    label: above
+  field_image:
+    type: image
+    weight: '1'
+    settings:
+      image_style: ''
+      image_link: ''
+    label: hidden
+  field_sharing_our_sheppard:
+    type: link
+    weight: '7'
+    settings:
+      trim_length: '80'
+      url_only: ''
+      url_plain: ''
+      rel: ''
+      target: ''
+    label: above
+  field_website:
+    type: link
+    weight: '4'
+    settings:
+      trim_length: '80'
+      url_only: '0'
+      url_plain: '0'
+      rel: '0'
+      target: _blank
+    label: above
+  field_email:
+    type: email_mailto
+    weight: '5'
+    settings: {  }
+    label: above

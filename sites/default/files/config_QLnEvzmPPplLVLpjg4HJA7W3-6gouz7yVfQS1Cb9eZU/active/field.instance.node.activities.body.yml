@@ -1,0 +1,16 @@
+id: node.activities.body
+uuid: 13555f44-5361-4b85-9f22-34825a3cb599
+status: '1'
+langcode: en
+field_uuid: 6c21ea13-a232-4690-9600-f5eb02e1b1e8
+entity_type: node
+bundle: activities
+label: Body
+description: ''
+required: '0'
+default_value: {  }
+default_value_function: ''
+settings:
+  display_summary: '1'
+  text_processing: '1'
+field_type: text_with_summary

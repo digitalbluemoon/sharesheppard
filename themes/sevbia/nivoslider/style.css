@@ -1,0 +1,17 @@
+
+
+.theme-default .nivoSlider{
+	margin-bottom:0;
+}
+.theme-default .nivo-controlNav {
+    display: none;
+    padding: 0 0;
+    text-align: center;
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}

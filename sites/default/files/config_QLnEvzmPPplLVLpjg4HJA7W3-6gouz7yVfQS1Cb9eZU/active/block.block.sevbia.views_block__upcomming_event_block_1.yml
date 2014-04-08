@@ -1,0 +1,28 @@
+id: sevbia.views_block__upcomming_event_block_1
+uuid: b63a27a6-bb42-4dcb-af01-1b9de29e3907
+weight: '-20'
+status: '1'
+langcode: en
+region: sidebar_first
+plugin: 'views_block:upcomming_event-block_1'
+settings:
+  items_per_page: none
+  label: ''
+  module: views
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '1'
+    pages: '<front>'
+  role:
+    roles: {  }
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-path

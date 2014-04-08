@@ -1,0 +1,15 @@
+id: contact_message.field_user_n
+uuid: 9e7dbdda-4386-4c49-8a00-a6a162f176f3
+status: '1'
+langcode: en
+name: field_user_n
+entity_type: contact_message
+type: text
+settings:
+  max_length: '255'
+module: text
+active: '1'
+locked: '0'
+cardinality: '1'
+translatable: '0'
+indexes: {  }

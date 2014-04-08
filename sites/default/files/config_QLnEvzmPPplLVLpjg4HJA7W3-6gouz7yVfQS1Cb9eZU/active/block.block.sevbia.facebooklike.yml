@@ -1,0 +1,29 @@
+id: sevbia.facebooklike
+uuid: a93626a0-0ef7-44ee-b707-7b1f1c7feb2d
+weight: '-12'
+status: '0'
+langcode: en
+region: '-1'
+plugin: 'custom_block:a8eb3f75-36c9-4bec-a600-aa1525d61d58'
+settings:
+  status: '1'
+  info: ''
+  view_mode: full
+  label: 'Facebook Like'
+  module: custom_block
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '0'
+    pages: ''
+  role:
+    roles: {  }
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+  visibility__active_tab: edit-visibility-path

@@ -1,0 +1,31 @@
+id: node.field_image
+uuid: 51387e95-3547-43fa-8e00-a21e8ac0adf6
+status: '1'
+langcode: und
+name: field_image
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image: '0'
+  column_groups:
+    file:
+      label: File
+      columns:
+        - target_id
+        - width
+        - height
+    alt:
+      label: Alt
+      translatable: '1'
+    title:
+      label: Title
+      translatable: '1'
+module: image
+active: '1'
+locked: '0'
+cardinality: '1'
+translatable: '0'
+indexes:
+  target_id:
+    - target_id

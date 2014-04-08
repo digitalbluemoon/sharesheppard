@@ -1,0 +1,30 @@
+id: sevbia.sheppardeastgooglemap700px
+uuid: b7fcb419-daf5-44ba-8300-ac18bcdd6122
+weight: '-23'
+status: '1'
+langcode: en
+region: featured
+plugin: 'custom_block:0223ab87-0b81-4861-a809-099ba50b89ea'
+settings:
+  status: '1'
+  info: ''
+  view_mode: full
+  label: 'Sheppard East Google Map - 700px'
+  module: custom_block
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '1'
+    pages: business-directory
+  role:
+    roles: {  }
+  node_type:
+    types:
+      business: business
+      activities: '0'
+      article: '0'
+      blog: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-node-type--2

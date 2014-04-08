@@ -1,0 +1,14 @@
+id: node.field_website
+uuid: f9d2eb29-151d-40cf-9d5d-937b0b18b672
+status: '1'
+langcode: en
+name: field_website
+entity_type: node
+type: link
+settings: {  }
+module: link
+active: '1'
+locked: '0'
+cardinality: '1'
+translatable: '0'
+indexes: {  }

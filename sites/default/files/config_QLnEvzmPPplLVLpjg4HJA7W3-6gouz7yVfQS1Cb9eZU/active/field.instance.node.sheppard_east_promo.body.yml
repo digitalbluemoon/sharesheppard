@@ -1,0 +1,16 @@
+id: node.sheppard_east_promo.body
+uuid: 4a4a28c3-69a4-4623-b500-f502154645ad
+status: '1'
+langcode: en
+field_uuid: 6c21ea13-a232-4690-9600-f5eb02e1b1e8
+entity_type: node
+bundle: sheppard_east_promo
+label: Body
+description: ''
+required: '0'
+default_value: {  }
+default_value_function: ''
+settings:
+  display_summary: '1'
+  text_processing: '1'
+field_type: text_with_summary

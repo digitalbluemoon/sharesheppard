@@ -1,0 +1,6 @@
+id: user.compact
+uuid: 127ab34e-b90b-48c6-8400-d25a7099b5c3
+label: Compact
+targetEntityType: user
+status: '1'
+langcode: en

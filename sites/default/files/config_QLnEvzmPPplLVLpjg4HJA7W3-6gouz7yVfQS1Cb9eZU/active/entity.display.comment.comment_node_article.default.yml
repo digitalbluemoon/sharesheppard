@@ -1,0 +1,6 @@
+id: comment.comment_node_article.default
+uuid: 13855c55-7df9-4d05-9b00-a3e46b1112f0
+targetEntityType: comment
+bundle: comment_node_article
+mode: default
+content: {  }

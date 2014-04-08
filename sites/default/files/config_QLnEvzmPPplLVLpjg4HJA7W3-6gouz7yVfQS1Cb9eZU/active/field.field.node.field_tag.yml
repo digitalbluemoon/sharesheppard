@@ -1,0 +1,15 @@
+id: node.field_tag
+uuid: d0cb5458-f81f-4a53-a300-d443d392584f
+status: '1'
+langcode: en
+name: field_tag
+entity_type: node
+type: text
+settings:
+  max_length: '255'
+module: text
+active: '1'
+locked: '0'
+cardinality: '1'
+translatable: '0'
+indexes: {  }

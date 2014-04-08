@@ -1,0 +1,29 @@
+id: sevbia.socialblock
+uuid: 9b29b7f9-0946-4882-a105-5ee3867a1ce9
+weight: '-13'
+status: '0'
+langcode: en
+region: '-1'
+plugin: 'custom_block:593482ec-a018-4ede-bd00-a31d48b2dff7'
+settings:
+  status: '1'
+  info: ''
+  view_mode: full
+  label: 'social block'
+  module: custom_block
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '0'
+    pages: ''
+  role:
+    roles: {  }
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+  visibility__active_tab: edit-visibility-path

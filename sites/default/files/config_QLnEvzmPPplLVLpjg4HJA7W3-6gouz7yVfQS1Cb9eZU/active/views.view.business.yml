@@ -1,0 +1,837 @@
+base_field: nid
+base_table: node
+core: 8.x
+description: ''
+status: '1'
+display:
+  default:
+    display_plugin: default
+    id: default
+    display_title: Master
+    position: '1'
+    display_options:
+      access:
+        type: perm
+        options:
+          perm: 'access content'
+      cache:
+        type: none
+        options: {  }
+      query:
+        type: views_query
+        options:
+          disable_sql_rewrite: '0'
+          distinct: '0'
+          slave: '0'
+          query_comment: ''
+          query_tags: {  }
+      exposed_form:
+        type: basic
+        options:
+          submit_button: Search
+          reset_button: '0'
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          expose_sort_order: '1'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      pager:
+        type: some
+        options:
+          items_per_page: '1'
+          offset: '0'
+      style:
+        type: html_list
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: '1'
+          row_class_special: '1'
+          type: ul
+          wrapper_class: item-list
+          class: ''
+      row:
+        type: fields
+      fields:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          provider: node
+          label: ''
+          alter:
+            alter_text: '0'
+            make_link: '0'
+            absolute: '0'
+            trim: '0'
+            word_boundary: '0'
+            ellipsis: '0'
+            strip_tags: '0'
+            html: '0'
+          hide_empty: '0'
+          empty_zero: '0'
+          link_to_node: '1'
+          relationship: none
+          group_type: group
+          admin_label: ''
+          exclude: '0'
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: '1'
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: '1'
+          empty: ''
+          hide_alter_empty: '1'
+        field_address:
+          id: field_address
+          table: node__field_address
+          field: field_address
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: '0'
+          alter:
+            alter_text: '0'
+            text: ''
+            make_link: '0'
+            path: ''
+            absolute: '0'
+            external: '0'
+            replace_spaces: '0'
+            path_case: none
+            trim_whitespace: '0'
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: '0'
+            max_length: ''
+            word_boundary: '1'
+            ellipsis: '1'
+            more_link: '0'
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: '0'
+            trim: '0'
+            preserve_tags: ''
+            html: '0'
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: '0'
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: '1'
+          empty: ''
+          hide_empty: '0'
+          empty_zero: '0'
+          hide_alter_empty: '1'
+          click_sort_column: value
+          type: text_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: '1'
+          delta_limit: all
+          delta_offset: '0'
+          delta_reversed: '0'
+          delta_first_last: '0'
+          multi_type: separator
+          separator: ', '
+          field_api_classes: '0'
+          plugin_id: field
+          provider: field
+        field_phone:
+          id: field_phone
+          table: node__field_phone
+          field: field_phone
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: Phone
+          exclude: '0'
+          alter:
+            alter_text: '0'
+            text: ''
+            make_link: '0'
+            path: ''
+            absolute: '0'
+            external: '0'
+            replace_spaces: '0'
+            path_case: none
+            trim_whitespace: '0'
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: '0'
+            max_length: ''
+            word_boundary: '1'
+            ellipsis: '1'
+            more_link: '0'
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: '0'
+            trim: '0'
+            preserve_tags: ''
+            html: '0'
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: '0'
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: '1'
+          empty: ''
+          hide_empty: '0'
+          empty_zero: '0'
+          hide_alter_empty: '1'
+          click_sort_column: value
+          type: text_plain
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: '1'
+          delta_limit: all
+          delta_offset: '0'
+          delta_reversed: '0'
+          delta_first_last: '0'
+          multi_type: separator
+          separator: ', '
+          field_api_classes: '0'
+          plugin_id: field
+          provider: field
+        body:
+          id: body
+          table: node__body
+          field: body
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: 'About us'
+          exclude: '0'
+          alter:
+            alter_text: '0'
+            text: ''
+            make_link: '0'
+            path: ''
+            absolute: '0'
+            external: '0'
+            replace_spaces: '0'
+            path_case: none
+            trim_whitespace: '0'
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: '0'
+            max_length: ''
+            word_boundary: '1'
+            ellipsis: '1'
+            more_link: '0'
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: '0'
+            trim: '0'
+            preserve_tags: ''
+            html: '0'
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: '0'
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: '1'
+          empty: ''
+          hide_empty: '0'
+          empty_zero: '0'
+          hide_alter_empty: '1'
+          click_sort_column: value
+          type: text_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: '1'
+          delta_limit: all
+          delta_offset: '0'
+          delta_reversed: '0'
+          delta_first_last: '0'
+          multi_type: separator
+          separator: ', '
+          field_api_classes: '0'
+          plugin_id: field
+          provider: field
+        field_hours:
+          id: field_hours
+          table: node__field_hours
+          field: field_hours
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: Hours
+          exclude: '0'
+          alter:
+            alter_text: '0'
+            text: ''
+            make_link: '0'
+            path: ''
+            absolute: '0'
+            external: '0'
+            replace_spaces: '0'
+            path_case: none
+            trim_whitespace: '0'
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: '0'
+            max_length: ''
+            word_boundary: '1'
+            ellipsis: '1'
+            more_link: '0'
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: '0'
+            trim: '0'
+            preserve_tags: ''
+            html: '0'
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: '0'
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: '1'
+          empty: ''
+          hide_empty: '0'
+          empty_zero: '0'
+          hide_alter_empty: '1'
+          click_sort_column: value
+          type: text_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: '1'
+          delta_limit: all
+          delta_offset: '0'
+          delta_reversed: '0'
+          delta_first_last: '0'
+          multi_type: separator
+          separator: ', '
+          field_api_classes: '0'
+          plugin_id: field
+          provider: field
+      filters:
+        status:
+          value: '1'
+          table: node_field_data
+          field: status
+          provider: node
+          id: status
+          expose:
+            operator: '0'
+          group: '1'
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          value:
+            business: business
+        promote:
+          id: promote
+          table: node_field_data
+          field: promote
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: '='
+          value: '1'
+          group: '1'
+          exposed: '0'
+          expose:
+            operator_id: '0'
+            label: ''
+            description: ''
+            use_operator: '0'
+            operator: ''
+            identifier: ''
+            required: '0'
+            remember: '0'
+            multiple: '0'
+            remember_roles:
+              authenticated: authenticated
+          is_grouped: '0'
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: '1'
+            widget: select
+            multiple: '0'
+            remember: '0'
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          plugin_id: boolean
+          provider: views
+      sorts:
+        created:
+          id: created
+          table: node_field_data
+          field: created
+          order: DESC
+          relationship: none
+          group_type: group
+          admin_label: ''
+          exposed: '0'
+          expose:
+            label: ''
+          granularity: second
+      title: 'Business Directory'
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          plugin_id: text
+          provider: views
+      footer: {  }
+      empty:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: '1'
+          tokenize: '0'
+          content: '<h1 align="center">No results.</h1>'
+          format: full_html
+          plugin_id: text
+          provider: views
+      relationships: {  }
+      arguments:
+        field_business_catogory_target_id:
+          id: field_business_catogory_target_id
+          table: node__field_business_catogory
+          field: field_business_catogory_target_id
+          plugin_id: numeric
+          provider: views
+      use_ajax: '0'
+      css_class: always-show
+  page_1:
+    display_plugin: page
+    id: page_1
+    display_title: Page
+    position: '1'
+    display_options:
+      path: business-directory
+      filters:
+        status:
+          value: '1'
+          table: node_field_data
+          field: status
+          provider: node
+          id: status
+          expose:
+            operator: '0'
+          group: '1'
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          value:
+            business: business
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: word
+          value: ''
+          group: '1'
+          exposed: '1'
+          expose:
+            operator_id: title_op
+            label: 'By Business'
+            description: ''
+            use_operator: '0'
+            operator: title_op
+            identifier: title
+            required: '0'
+            remember: '0'
+            multiple: '0'
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+          is_grouped: '0'
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: '1'
+            widget: select
+            multiple: '0'
+            remember: '0'
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          plugin_id: string
+          provider: views
+        field_business_catogory_target_id:
+          id: field_business_catogory_target_id
+          table: node__field_business_catogory
+          field: field_business_catogory_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: or
+          value: {  }
+          group: '1'
+          exposed: '1'
+          expose:
+            operator_id: field_business_catogory_target_id_op
+            label: 'By Category'
+            description: ''
+            use_operator: '0'
+            operator: field_business_catogory_target_id_op
+            identifier: field_business_catogory_target_id
+            required: '0'
+            remember: '0'
+            multiple: '0'
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: '0'
+          is_grouped: '0'
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: '1'
+            widget: select
+            multiple: '0'
+            remember: '0'
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: '0'
+          type: select
+          limit: '1'
+          vid: business_categories
+          hierarchy: '0'
+          error_message: '1'
+          plugin_id: taxonomy_index_tid
+          provider: taxonomy
+      defaults:
+        filters: '0'
+        filter_groups: '0'
+        header: '0'
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      exposed_block: '1'
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: '0'
+          tokenize: '0'
+          content: 'Over 500 businesses and professional offices await you in Sheppard East Village between Midland Avenue and Markham Road, on Sheppard Avenue East!'
+          format: full_html
+          plugin_id: text
+          provider: views
+  block_1:
+    display_plugin: block
+    id: block_1
+    display_title: 'Block: Business profile #1'
+    position: '2'
+    display_options:
+      block_category: Content
+      display_description: 'Block: Business profile #1'
+      fields:
+        field_image:
+          id: field_image
+          table: node__field_image
+          field: field_image
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: '0'
+          alter:
+            alter_text: '0'
+            text: ''
+            make_link: '0'
+            path: ''
+            absolute: '0'
+            external: '0'
+            replace_spaces: '0'
+            path_case: none
+            trim_whitespace: '0'
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: '0'
+            max_length: ''
+            word_boundary: '1'
+            ellipsis: '1'
+            more_link: '0'
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: '0'
+            trim: '0'
+            preserve_tags: ''
+            html: '0'
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: '0'
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: '1'
+          empty: ''
+          hide_empty: '0'
+          empty_zero: '0'
+          hide_alter_empty: '1'
+          click_sort_column: title
+          type: image
+          settings:
+            image_style: medium
+            image_link: content
+          group_column: ''
+          group_columns: {  }
+          group_rows: '1'
+          delta_limit: all
+          delta_offset: '0'
+          delta_reversed: '0'
+          delta_first_last: '0'
+          multi_type: separator
+          separator: ', '
+          field_api_classes: '0'
+          plugin_id: field
+          provider: field
+        field_sharing_our_sheppard:
+          id: field_sharing_our_sheppard
+          table: node__field_sharing_our_sheppard
+          field: field_sharing_our_sheppard
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: '0'
+          alter:
+            alter_text: '0'
+            text: ''
+            make_link: '0'
+            path: ''
+            absolute: '0'
+            external: '0'
+            replace_spaces: '0'
+            path_case: none
+            trim_whitespace: '0'
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: '0'
+            max_length: ''
+            word_boundary: '1'
+            ellipsis: '1'
+            more_link: '0'
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: '0'
+            trim: '0'
+            preserve_tags: ''
+            html: '0'
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: '0'
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: '1'
+          empty: ''
+          hide_empty: '0'
+          empty_zero: '0'
+          hide_alter_empty: '1'
+          click_sort_column: url
+          type: link
+          settings:
+            trim_length: '80'
+            url_only: '0'
+            url_plain: '1'
+            rel: '0'
+            target: '0'
+          group_column: ''
+          group_columns: {  }
+          group_rows: '1'
+          delta_limit: all
+          delta_offset: '0'
+          delta_reversed: '0'
+          delta_first_last: '0'
+          multi_type: separator
+          separator: ', '
+          field_api_classes: '0'
+          plugin_id: field
+          provider: field
+      defaults:
+        fields: '0'
+  block_2:
+    display_plugin: block
+    id: block_2
+    display_title: 'Block: Find a Business'
+    position: '3'
+    display_options:
+      block_category: Content
+      title: 'Find a Business'
+      defaults:
+        title: '0'
+        filters: '0'
+        filter_groups: '0'
+      display_description: ''
+      filters:
+        status:
+          value: '1'
+          table: node_field_data
+          field: status
+          provider: node
+          id: status
+          expose:
+            operator: '0'
+          group: '1'
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          value:
+            business: business
+        field_business_catogory_target_id:
+          id: field_business_catogory_target_id
+          table: node__field_business_catogory
+          field: field_business_catogory_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: or
+          value: {  }
+          group: '1'
+          exposed: '1'
+          expose:
+            operator_id: field_business_catogory_target_id_op
+            label: 'By Catogory'
+            description: ''
+            use_operator: '0'
+            operator: field_business_catogory_target_id_op
+            identifier: field_business_catogory_target_id
+            required: '0'
+            remember: '0'
+            multiple: '0'
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: '0'
+          is_grouped: '0'
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: '1'
+            widget: select
+            multiple: '0'
+            remember: '0'
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: '0'
+          type: select
+          limit: '1'
+          vid: business_categories
+          hierarchy: '0'
+          error_message: '1'
+          plugin_id: taxonomy_index_tid
+          provider: taxonomy
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: word
+          value: ''
+          group: '1'
+          exposed: '1'
+          expose:
+            operator_id: title_op
+            label: 'By Business'
+            description: ''
+            use_operator: '0'
+            operator: title_op
+            identifier: title
+            required: '0'
+            remember: '0'
+            multiple: '0'
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+          is_grouped: '0'
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: '1'
+            widget: select
+            multiple: '0'
+            remember: '0'
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          plugin_id: string
+          provider: views
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+label: Business
+module: views
+id: business
+tag: ''
+uuid: 12f1b3fc-fd08-4220-a95d-935788c7060d
+langcode: en

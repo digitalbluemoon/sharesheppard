@@ -1,0 +1,12 @@
+id: node.sheppard_east_promo.teaser
+uuid: 70ff0ac2-14db-42f9-8f00-a8ee3cf745b4
+targetEntityType: node
+bundle: sheppard_east_promo
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: '0'
+    settings:
+      trim_length: '600'

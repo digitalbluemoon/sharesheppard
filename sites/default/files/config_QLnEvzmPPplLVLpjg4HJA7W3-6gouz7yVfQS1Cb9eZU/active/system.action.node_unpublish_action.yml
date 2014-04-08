@@ -1,0 +1,8 @@
+id: node_unpublish_action
+label: 'Unpublish content'
+uuid: 1bace535-7884-4141-a504-4d03907be3ce
+status: '1'
+langcode: en
+type: node
+plugin: node_unpublish_action
+configuration: {  }

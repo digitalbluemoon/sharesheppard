@@ -1,0 +1,15 @@
+id: contact_message.field_email
+uuid: 27075334-73a5-48f1-b900-a7e7f1266789
+status: '1'
+langcode: en
+name: field_email
+entity_type: contact_message
+type: text
+settings:
+  max_length: '255'
+module: text
+active: '1'
+locked: '0'
+cardinality: '1'
+translatable: '0'
+indexes: {  }

@@ -1,0 +1,30 @@
+id: sevbia.homepagebanner
+uuid: 9b22c950-57dc-4ccf-9000-e24cc3ab9908
+weight: '-9'
+status: '1'
+langcode: en
+region: highlighted
+plugin: 'custom_block:3cc78825-fe65-4f6c-a000-b8b40bfeb423'
+settings:
+  status: '1'
+  info: ''
+  view_mode: full
+  label: 'homepage banner'
+  module: custom_block
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '1'
+    pages: "<front>\r\ncontact"
+  role:
+    roles: {  }
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-path

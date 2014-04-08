@@ -1,0 +1,15 @@
+id: node.business.field_address
+uuid: 6eb448d6-ebc1-4c2e-8f00-cd4d2273aee2
+status: '1'
+langcode: en
+field_uuid: f1a1543e-64ef-4773-9804-4d98470bc938
+entity_type: node
+bundle: business
+label: Address
+description: ''
+required: '1'
+default_value: {  }
+default_value_function: ''
+settings:
+  text_processing: '0'
+field_type: text

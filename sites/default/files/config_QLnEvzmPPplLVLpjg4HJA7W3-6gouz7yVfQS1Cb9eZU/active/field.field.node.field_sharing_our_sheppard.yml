@@ -1,0 +1,14 @@
+id: node.field_sharing_our_sheppard
+uuid: df008f85-0c2a-4c06-9304-4f83181f5dd8
+status: '1'
+langcode: en
+name: field_sharing_our_sheppard
+entity_type: node
+type: link
+settings: {  }
+module: link
+active: '1'
+locked: '0'
+cardinality: '1'
+translatable: '0'
+indexes: {  }

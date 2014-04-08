@@ -1,0 +1,13 @@
+id: anonymous
+uuid: 34e183dd-ba5f-4d16-b05b-9134dbab3cd6
+label: 'Anonymous user'
+weight: '0'
+permissions:
+  - 'use text format plain_text'
+  - 'use text format restricted_html'
+  - 'access content'
+  - 'access comments'
+  - 'access site-wide contact form'
+  - 'search content'
+status: '1'
+langcode: en

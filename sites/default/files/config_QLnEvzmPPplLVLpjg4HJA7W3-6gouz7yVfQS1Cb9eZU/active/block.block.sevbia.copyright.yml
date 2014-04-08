@@ -1,0 +1,30 @@
+id: sevbia.copyright
+uuid: a7e9546e-8812-490c-b500-e2e0ffb4fc3a
+weight: '-16'
+status: '1'
+langcode: en
+region: footer
+plugin: 'custom_block:306e55fc-4154-4937-a863-9988b8b0ee8d'
+settings:
+  status: '1'
+  info: ''
+  view_mode: full
+  label: Copyright
+  module: custom_block
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '0'
+    pages: ''
+  role:
+    roles: {  }
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-path

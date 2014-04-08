@@ -1,0 +1,30 @@
+id: node.activities.default
+uuid: 340139fb-2b19-461d-8100-e05618f1f911
+targetEntityType: node
+bundle: activities
+mode: default
+content:
+  body:
+    type: text_default
+    weight: '1'
+    settings: {  }
+    label: hidden
+  language:
+    visible: '0'
+  field_image:
+    type: image
+    weight: '0'
+    settings:
+      image_style: ''
+      image_link: ''
+    label: hidden
+  field_happen:
+    weight: '2'
+    label: above
+    settings:
+      trim_length: '80'
+      url_only: ''
+      url_plain: ''
+      rel: ''
+      target: ''
+    type: link

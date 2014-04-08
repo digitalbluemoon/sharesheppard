@@ -1,0 +1,15 @@
+id: contact_message.personal.field_email
+uuid: c6985d13-fb9c-4307-b14a-7423c5688a73
+status: '1'
+langcode: en
+field_uuid: 27075334-73a5-48f1-b900-a7e7f1266789
+entity_type: contact_message
+bundle: personal
+label: Email
+description: ''
+required: '1'
+default_value: {  }
+default_value_function: ''
+settings:
+  text_processing: '0'
+field_type: text

@@ -1,0 +1,22 @@
+id: authenticated
+uuid: 0b573cab-6d03-45dc-9817-23d77757f1fd
+label: 'Authenticated user'
+weight: '1'
+permissions:
+  0: 'use text format plain_text'
+  1: 'use text format basic_html'
+  2: 'access content'
+  3: 'access comments'
+  4: 'post comments'
+  5: 'skip comment approval'
+  7: 'change own username'
+  8: 'access site-wide contact form'
+  9: 'search content'
+  10: 'create blog content'
+  11: 'edit own blog content'
+  12: 'create business content'
+  13: 'edit own business content'
+  14: 'delete own business content'
+  15: 'edit own comments'
+status: '1'
+langcode: en

@@ -1,0 +1,7 @@
+name: Default Email for Busness
+description: 'Sets authors email on business content type'
+type: module
+core: 8.x
+
+files:
+  - de.module

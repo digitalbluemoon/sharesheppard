@@ -1,0 +1,27 @@
+id: sevbia.useraccountmenu
+uuid: 57366a9a-29c1-4ed7-8901-1bff3bd2cb10
+weight: '-18'
+status: '1'
+langcode: en
+region: header
+plugin: 'system_menu_block:account'
+settings:
+  label: 'User account menu'
+  module: system
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '0'
+    pages: ''
+  role:
+    roles: {  }
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-path

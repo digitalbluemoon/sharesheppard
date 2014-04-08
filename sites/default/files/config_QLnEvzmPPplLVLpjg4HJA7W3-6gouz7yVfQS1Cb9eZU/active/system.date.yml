@@ -1,0 +1,9 @@
+country:
+  default: US
+first_day: '0'
+timezone:
+  default: America/Whitehorse
+  user:
+    configurable: '1'
+    warn: '0'
+    default: '0'

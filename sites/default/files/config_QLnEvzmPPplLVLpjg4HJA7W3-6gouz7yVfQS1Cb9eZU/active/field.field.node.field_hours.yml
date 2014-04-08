@@ -1,0 +1,14 @@
+id: node.field_hours
+uuid: d2b3ebff-096a-4b3f-9900-e0b84baff2f5
+status: '1'
+langcode: en
+name: field_hours
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+active: '1'
+locked: '0'
+cardinality: '1'
+translatable: '0'
+indexes: {  }

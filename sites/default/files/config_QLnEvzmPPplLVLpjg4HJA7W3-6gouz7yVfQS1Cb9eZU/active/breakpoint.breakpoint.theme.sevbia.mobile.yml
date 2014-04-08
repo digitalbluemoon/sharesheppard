@@ -1,0 +1,12 @@
+id: theme.sevbia.mobile
+uuid: 1ef7a306-0115-4766-a700-f793bf085f06
+name: mobile
+label: mobile
+mediaQuery: '(min-width: 0px)'
+source: sevbia
+sourceType: theme
+weight: '0'
+multipliers:
+  1x: 1x
+status: '1'
+langcode: en

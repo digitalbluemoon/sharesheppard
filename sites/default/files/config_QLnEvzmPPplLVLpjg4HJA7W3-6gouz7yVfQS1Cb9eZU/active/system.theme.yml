@@ -1,0 +1,5 @@
+admin: seven
+enabled:
+  seven: '0'
+  sevbia: '0'
+default: sevbia

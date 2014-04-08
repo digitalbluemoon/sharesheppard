@@ -1,0 +1,30 @@
+id: sevbia.searchbanner
+uuid: 271c4eb5-74d3-4a78-aa29-41706b9a2146
+weight: '-21'
+status: '1'
+langcode: en
+region: featured
+plugin: 'custom_block:3942a85f-8a72-4ebf-a92e-46dcd1b9ffb2'
+settings:
+  status: '1'
+  info: ''
+  view_mode: full
+  label: search-banner
+  module: custom_block
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '1'
+    pages: search/node
+  role:
+    roles: {  }
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-path

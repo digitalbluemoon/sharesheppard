@@ -1,0 +1,126 @@
+shortcut_module_link: '0'
+features:
+  logo: '1'
+  name: '1'
+  slogan: '1'
+  node_user_picture: '1'
+  comment_user_picture: '1'
+  comment_user_verification: '1'
+  favicon: '1'
+  main_menu: '0'
+  secondary_menu: '0'
+logo:
+  use_default: '1'
+  path: ''
+favicon:
+  use_default: '1'
+  path: ''
+favicon_upload: ''
+scheme: default
+palette:
+  top: '#0779bf'
+  bottom: '#48a9e4'
+  bg: '#ffffff'
+  sidebar: '#f6f6f2'
+  sidebarborders: '#f9f9f9'
+  footer: '#292929'
+  titleslogan: '#fffeff'
+  text: '#3b3b3b'
+  link: '#0071B3'
+info:
+  fields:
+    top: 'Header background top'
+    bottom: 'Header background bottom'
+    bg: 'Main background'
+    sidebar: 'Sidebar background'
+    sidebarborders: 'Sidebar borders'
+    footer: 'Footer background'
+    titleslogan: 'Title and slogan'
+    text: 'Text color'
+    link: 'Link color'
+  schemes:
+    default:
+      title: 'Blue Lagoon (default)'
+      colors:
+        top: '#0779bf'
+        bottom: '#48a9e4'
+        bg: '#ffffff'
+        sidebar: '#f6f6f2'
+        sidebarborders: '#f9f9f9'
+        footer: '#292929'
+        titleslogan: '#fffeff'
+        text: '#3b3b3b'
+        link: '#0071B3'
+    firehouse:
+      title: Firehouse
+      colors:
+        top: '#cd2d2d'
+        bottom: '#cf3535'
+        bg: '#ffffff'
+        sidebar: '#f1f4f0'
+        sidebarborders: '#ededed'
+        footer: '#1f1d1c'
+        titleslogan: '#fffeff'
+        text: '#3b3b3b'
+        link: '#d6121f'
+    ice:
+      title: Ice
+      colors:
+        top: '#d0d0d0'
+        bottom: '#c2c4c5'
+        bg: '#ffffff'
+        sidebar: '#ffffff'
+        sidebarborders: '#cccccc'
+        footer: '#24272c'
+        titleslogan: '#000000'
+        text: '#4a4a4a'
+        link: '#019dbf'
+    plum:
+      title: Plum
+      colors:
+        top: '#4c1c58'
+        bottom: '#593662'
+        bg: '#fffdf7'
+        sidebar: '#edede7'
+        sidebarborders: '#e7e7e7'
+        footer: '#2c2c28'
+        titleslogan: '#ffffff'
+        text: '#301313'
+        link: '#9d408d'
+    slate:
+      title: Slate
+      colors:
+        top: '#4a4a4a'
+        bottom: '#4e4e4e'
+        bg: '#ffffff'
+        sidebar: '#ffffff'
+        sidebarborders: '#d0d0d0'
+        footer: '#161617'
+        titleslogan: '#ffffff'
+        text: '#3b3b3b'
+        link: '#0073b6'
+    '':
+      title: Custom
+      colors: {  }
+  css:
+    - css/colors.css
+  copy:
+    - logo.png
+  gradients:
+    -
+      dimension:
+        - '0'
+        - '0'
+        - '0'
+        - '0'
+      direction: vertical
+      colors:
+        - top
+        - bottom
+  fill: {  }
+  slices: {  }
+  blend_target: '#ffffff'
+  preview_css: color/preview.css
+  preview_js: color/preview.js
+  preview_html: color/preview.html
+  base_image: color/base.png

@@ -1,0 +1,152 @@
+<div id ='container'>
+<div id='header'>
+  <header  role="banner">
+  <div id="logo">
+    {% if logo %}
+      <a href="{{ front_page }}" title="{{ 'Home'|t }}" rel="home" id="logo">
+        <img src="{{ logo }}" alt="{{ 'Home'|t }}" />
+      </a>
+    {% endif %}
+  </div>
+ 
+    {{ page.header }}
+
+</div>
+
+
+
+
+<div id="navigation-container" class="navigation-container">
+      <div id="navigation" class="navbar navbar-default">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-left">
+            
+            <li class="first leaf"><a href="/">HOME</a></li>
+            <li class="leaf dropdown">
+               <a href="/about-bia" class="dropdown-toggle disabled" data-toggle="dropdown">ABOUT SEV BIA</a>
+		<ul class="dropdown-menu">
+			<li><a href="/sharing-our-sheppard">Sharing our Sheppard</a></li>
+		</ul>
+
+  	    </li>
+            <li class="leaf "><a href="/whats-happening">WHAT'S HAPPENING</a></li>
+	    <li class="leaf"><a href="/business-directory">DIRECTORY</a></li>
+            <li class="leaf"><a href="/news">News</a></li>
+            <li class="leaf"><a href="/contact">CONTACT</a></li>
+            <li class="last leaf"><a href="/search">.</a></li>			
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="twitter"><a href="http://www.twitter.com/SEVBIA" target="_blank">tw</a></li>
+            <li class="face"><a href="https://www.facebook.com/pages/Sheppard-East-Village-BIA/1471454693079114" target="_blank">fb</a></li>
+          </ul>
+        </div>
+      </div>
+</div>	  
+
+		{% if main_menu %}
+      <nav id ="main-menu" class="navbar navbar-default navigation" role="navigation">
+        {{ main_menu }}
+      </nav> <!-- /#main-menu -->
+    {% endif %}
+	
+	
+{% if page.navigation %}
+      <div id="navigation" class= column ">	    					
+        {{ page.navigation }}	
+     </div><!-- /.section, /#sidebar-first -->
+    {% endif %}
+	
+<div id='main-area'>
+  {% if page.highlighted %}<div id="highlighted">{{ page.highlighted }}</div>{% endif %}
+<div id='main-content'>
+
+   {% if page.featured %} 
+    <div id='feature'>
+    <aside id="featured"><div class="section clearfix">
+      {{ page.featured }}
+    </div></aside> <!-- /.section, /#featured --></div>
+  {% endif %}
+  
+    {% if page.sidebar_first %}
+      <div id="sidebar-first" class="column sidebar hidden-xs"><aside class="section">
+        {{ page.sidebar_first }}
+      </aside></div><!-- /.section, /#sidebar-first -->
+    {% endif %}
+
+   <div id='middle-content'>
+    {% if messages %}
+      <div id="messages"><div class="section clearfix">
+      {{ messages }}
+      </div></div> <!-- /.section, /#messages -->
+    {% endif %}
+	
+    <section class="section">
+	{% if page.content_top %}<div id="content-top">{{ page.content_top }}</div>{% endif %}
+      <a id="main-content"></a>
+      {{ title_prefix }}
+        {% if title %}
+          <h1 class="title" id="page-title">
+            {{ title }}
+          </h1>
+        {% endif %}
+      {{ title_suffix }}
+        {% if tabs %}
+          <nav class="tabs" role="navigation">
+            {{ tabs }}
+          </nav>
+        {% endif %}
+      {{ page.help }}
+        {% if action_links %}
+          <ul class="action-links">
+            {{ action_links }}
+          </ul>
+        {% endif %}
+      {{ page.content }}
+      {{ feed_icons }}
+    </section>
+</div>
+</div>
+ {% if page.sidebar_second %}
+      <div id="sidebar-second" class="column sidebar hidden-xs"><aside class="section">
+        {{ page.sidebar_second }}
+      </aside></div><!-- /.section, /#sidebar-second -->
+    {% endif %}
+</div>
+ {% if page.footer_top %}
+      <div id="footer-top" class="">
+	   
+          {{ page.footer_top }}
+		
+      </div>
+    {% endif %}
+{% if page.triptych_first or page.triptych_middle or page.triptych_last %}
+    <div id="triptych-wrapper"><aside id="triptych" class="clearfix">
+      {{ page.triptych_first }}
+      {{ page.triptych_middle }}
+      {{ page.triptych_last }}
+    </aside></div><!-- /#triptych, /#triptych-wrapper -->
+  {% endif %}
+<div id='footer-area'>
+   {% if page.footer_firstcolumn or page.footer_secondcolumn or page.footer_thirdcolumn or page.footer_fourthcolumn %}
+      <div id="footer-columns" class="clearfix">
+        {{ page.footer_firstcolumn }}
+        {{ page.footer_secondcolumn }}
+        {{ page.footer_thirdcolumn }}
+        {{ page.footer_fourthcolumn }}
+      </div><!-- /#footer-columns -->
+    {% endif %}
+
+    {% if page.footer %}
+      <div id="footer-content" role="contentinfo" class="clearfix">
+        {{ page.footer }}
+      </div> <!-- /#footer -->
+   {% endif %}
+</div>
+</div>

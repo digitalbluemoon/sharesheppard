@@ -1,0 +1,11 @@
+id: comment.comment_node_page.default
+uuid: 4241c001-5b71-40fb-a800-e94776519ded
+targetEntityType: comment
+bundle: comment_node_page
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: '0'
+    settings: {  }

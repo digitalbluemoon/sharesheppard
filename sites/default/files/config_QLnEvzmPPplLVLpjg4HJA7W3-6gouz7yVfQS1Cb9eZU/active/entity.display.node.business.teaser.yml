@@ -1,0 +1,40 @@
+id: node.business.teaser
+uuid: fa08a3c3-96cd-4143-8100-f3287c4bef15
+targetEntityType: node
+bundle: business
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    weight: '0'
+    settings:
+      trim_length: '600'
+    label: hidden
+  field_address:
+    type: text_plain
+    weight: '1'
+    settings: {  }
+    label: hidden
+  field_phone:
+    type: telephone_link
+    weight: '2'
+    settings:
+      title: ''
+    label: inline
+  language:
+    visible: '0'
+  field_email:
+    type: email_mailto
+    weight: '4'
+    settings: {  }
+    label: above
+  field_website:
+    type: link
+    weight: '3'
+    settings:
+      trim_length: '80'
+      url_only: ''
+      url_plain: ''
+      rel: ''
+      target: ''
+    label: above

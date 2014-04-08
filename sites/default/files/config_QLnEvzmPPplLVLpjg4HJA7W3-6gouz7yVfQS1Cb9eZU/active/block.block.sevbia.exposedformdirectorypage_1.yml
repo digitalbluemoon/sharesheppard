@@ -1,0 +1,27 @@
+id: sevbia.exposedformdirectorypage_1
+uuid: 949bb78d-2372-41f6-a60b-112e0687a003
+weight: '-21'
+status: '1'
+langcode: en
+region: sidebar_first
+plugin: 'views_exposed_filter_block:directory-page_1'
+settings:
+  label: ''
+  module: views
+  label_display: visible
+  cache: '-1'
+visibility:
+  path:
+    visibility: '1'
+    pages: "directory\r\nbusiness-directory\r\nuser/login"
+  role:
+    roles: {  }
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-path

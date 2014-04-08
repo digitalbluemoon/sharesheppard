@@ -1,0 +1,14 @@
+name: medium
+label: 'Medium (220x220)'
+uuid: c516344a-7d4e-436f-a502-2e453cbbbdec
+status: '1'
+langcode: en
+effects:
+  bddf0d06-42f9-4c75-a700-a33cafa25ea0:
+    uuid: bddf0d06-42f9-4c75-a700-a33cafa25ea0
+    id: image_scale
+    weight: '0'
+    data:
+      width: '220'
+      height: '220'
+      upscale: '1'

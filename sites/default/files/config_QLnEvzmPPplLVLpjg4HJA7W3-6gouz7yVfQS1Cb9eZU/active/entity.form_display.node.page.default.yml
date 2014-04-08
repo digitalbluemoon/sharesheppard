@@ -1,0 +1,13 @@
+id: node.page.default
+uuid: 65be04d4-d38d-42fb-bc00-a763c7181115
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: '0'
+    settings:
+      rows: '9'
+      summary_rows: '3'
+      placeholder: ''

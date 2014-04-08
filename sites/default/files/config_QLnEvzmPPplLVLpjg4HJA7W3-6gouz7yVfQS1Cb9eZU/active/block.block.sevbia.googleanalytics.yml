@@ -1,0 +1,30 @@
+id: sevbia.googleanalytics
+uuid: 4a97faf7-b723-420f-ab0b-119fc69c8132
+weight: ''
+status: '1'
+langcode: en
+region: header
+plugin: 'custom_block:bccadb59-d832-49e0-9b00-d530b04f04c6'
+settings:
+  status: '1'
+  info: ''
+  view_mode: full
+  label: 'Google Analytics'
+  module: custom_block
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '0'
+    pages: ''
+  role:
+    roles: {  }
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-path

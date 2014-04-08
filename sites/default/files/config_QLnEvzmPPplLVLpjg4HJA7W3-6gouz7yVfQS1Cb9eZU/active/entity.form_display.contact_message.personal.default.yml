@@ -1,0 +1,24 @@
+id: contact_message.personal.default
+uuid: 08bfef3a-834a-477f-8006-6bd4308db9b2
+targetEntityType: contact_message
+bundle: personal
+mode: default
+content:
+  name:
+    weight: '-50'
+    visible: '1'
+  mail:
+    weight: '-40'
+    visible: '1'
+  recipient:
+    weight: '-30'
+    visible: '1'
+  subject:
+    weight: '-10'
+    visible: '1'
+  message:
+    weight: '0'
+    visible: '1'
+  copy:
+    weight: '50'
+    visible: '1'

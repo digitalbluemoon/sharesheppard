@@ -1,0 +1,15 @@
+id: node.blog.field_tag
+uuid: 7ff12ca1-98ca-49a9-a439-57d6ea75341a
+status: '1'
+langcode: en
+field_uuid: d0cb5458-f81f-4a53-a300-d443d392584f
+entity_type: node
+bundle: blog
+label: Tag
+description: ''
+required: '0'
+default_value: {  }
+default_value_function: ''
+settings:
+  text_processing: '0'
+field_type: text

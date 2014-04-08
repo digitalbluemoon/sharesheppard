@@ -1,0 +1,16 @@
+id: node.business.body
+uuid: 008f2b7a-4ea8-41ef-9d01-1c36ab17f1a8
+status: '1'
+langcode: en
+field_uuid: 6c21ea13-a232-4690-9600-f5eb02e1b1e8
+entity_type: node
+bundle: business
+label: 'About us'
+description: ''
+required: '0'
+default_value: {  }
+default_value_function: ''
+settings:
+  text_processing: '0'
+  display_summary: '1'
+field_type: text_with_summary

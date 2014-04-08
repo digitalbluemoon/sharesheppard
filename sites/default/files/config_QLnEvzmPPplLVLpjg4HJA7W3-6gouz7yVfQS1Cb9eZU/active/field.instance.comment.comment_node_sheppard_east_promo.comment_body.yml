@@ -1,0 +1,15 @@
+id: comment.comment_node_sheppard_east_promo.comment_body
+uuid: 00e11702-3350-4323-a204-4d5c9a6b1b4c
+status: '1'
+langcode: en
+field_uuid: 2f0c9697-212d-44d6-8800-d5803b4dc00e
+entity_type: comment
+bundle: comment_node_sheppard_east_promo
+label: Comment
+description: ''
+required: '1'
+default_value: {  }
+default_value_function: ''
+settings:
+  text_processing: '1'
+field_type: text_long

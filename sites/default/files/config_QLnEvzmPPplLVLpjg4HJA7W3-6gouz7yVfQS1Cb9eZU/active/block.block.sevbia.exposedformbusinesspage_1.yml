@@ -1,0 +1,27 @@
+id: sevbia.exposedformbusinesspage_1
+uuid: 4eb6c2b1-803b-4504-bc06-6d962b2e5fa4
+weight: '-20'
+status: '0'
+langcode: en
+region: '-1'
+plugin: 'views_exposed_filter_block:business-page_1'
+settings:
+  label: ''
+  module: views
+  label_display: visible
+  cache: '-1'
+visibility:
+  path:
+    visibility: '1'
+    pages: business-directory
+  role:
+    roles: {  }
+  node_type:
+    types:
+      business: business
+      activities: '0'
+      article: '0'
+      blog: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-node-type

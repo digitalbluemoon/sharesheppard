@@ -1,0 +1,8 @@
+id: node_delete_action
+label: 'Delete selected content'
+uuid: 9598e7fc-4a67-4356-b60a-10a744cb308c
+status: '1'
+langcode: en
+type: node
+plugin: node_delete_action
+configuration: {  }

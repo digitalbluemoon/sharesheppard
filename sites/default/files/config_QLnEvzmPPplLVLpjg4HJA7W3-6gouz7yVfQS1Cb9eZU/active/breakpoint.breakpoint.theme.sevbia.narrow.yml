@@ -1,0 +1,12 @@
+id: theme.sevbia.narrow
+uuid: ae4391c8-ecc8-482a-9e00-a43ea3d30a92
+name: narrow
+label: narrow
+mediaQuery: 'all and (min-width: 560px) and (max-width: 850px)'
+source: sevbia
+sourceType: theme
+weight: '1'
+multipliers:
+  1x: 1x
+status: '1'
+langcode: en

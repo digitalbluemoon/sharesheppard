@@ -1,0 +1,30 @@
+id: sevbia.contactinfo
+uuid: fa5902f9-b3b3-4d34-8706-6cc6973ee5f8
+weight: '-21'
+status: '1'
+langcode: en
+region: content_top
+plugin: 'custom_block:23f51bb5-1cd6-47b3-b903-036a4bc8f755'
+settings:
+  status: '1'
+  info: ''
+  view_mode: full
+  label: 'Contact Information'
+  module: custom_block
+  label_display: visible
+  cache: '-1'
+visibility:
+  path:
+    visibility: '1'
+    pages: contact
+  role:
+    roles: {  }
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-path

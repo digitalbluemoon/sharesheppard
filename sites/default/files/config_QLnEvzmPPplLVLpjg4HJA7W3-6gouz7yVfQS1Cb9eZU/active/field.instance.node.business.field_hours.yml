@@ -1,0 +1,15 @@
+id: node.business.field_hours
+uuid: 901f45a6-4bce-486e-b900-f20982c299fb
+status: '1'
+langcode: en
+field_uuid: d2b3ebff-096a-4b3f-9900-e0b84baff2f5
+entity_type: node
+bundle: business
+label: Hours
+description: ''
+required: '1'
+default_value: {  }
+default_value_function: ''
+settings:
+  text_processing: '0'
+field_type: text_long

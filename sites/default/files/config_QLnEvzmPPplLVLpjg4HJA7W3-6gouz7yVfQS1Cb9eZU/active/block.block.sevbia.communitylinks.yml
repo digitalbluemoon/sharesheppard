@@ -1,0 +1,30 @@
+id: sevbia.communitylinks
+uuid: 0d321310-5661-418f-ba33-51386b2cfa97
+weight: '-15'
+status: '1'
+langcode: en
+region: sidebar_second
+plugin: 'custom_block:f7f32ade-b473-4aa0-ab41-65d4594af1d7'
+settings:
+  status: '1'
+  info: ''
+  view_mode: full
+  label: 'community contacts'
+  module: custom_block
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '1'
+    pages: "node/1\r\nupcoming-activities"
+  role:
+    roles: {  }
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-path

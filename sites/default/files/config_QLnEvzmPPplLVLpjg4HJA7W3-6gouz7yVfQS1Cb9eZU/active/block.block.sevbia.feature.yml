@@ -1,0 +1,31 @@
+id: sevbia.feature
+uuid: 00d6acba-2e02-4c52-8d01-1c2018a00079
+weight: '-7'
+status: '0'
+langcode: en
+region: '-1'
+plugin: 'custom_block:995a7dab-b36f-445b-9e00-bf262d170203'
+settings:
+  status: '1'
+  info: ''
+  view_mode: full
+  label: 'Business Banner AD'
+  module: custom_block
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '0'
+    pages: "<front>\r\nupcoming-activities"
+  role:
+    roles:
+      anonymous: anonymous
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-role

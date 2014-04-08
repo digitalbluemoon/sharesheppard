@@ -1,0 +1,28 @@
+id: sevbia.quicklinks
+uuid: c545f6df-585f-4d15-8831-49493bdaae45
+weight: '-19'
+status: '1'
+langcode: en
+region: sidebar_second
+plugin: 'system_menu_block:quick-links'
+settings:
+  label: 'Quick Links'
+  module: system
+  label_display: visible
+  cache: '-1'
+visibility:
+  path:
+    visibility: '1'
+    pages: "\r\n<front>"
+  role:
+    roles:
+      authenticated: authenticated
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-path

@@ -1,0 +1,25 @@
+id: node.blog.default
+uuid: 76b845a6-6132-45f0-b043-677a56f093ce
+targetEntityType: node
+bundle: blog
+mode: default
+content:
+  body:
+    type: text_default
+    weight: '1'
+    settings: {  }
+    label: hidden
+  field_tag:
+    type: text_default
+    weight: '2'
+    settings: {  }
+    label: hidden
+  language:
+    visible: '0'
+  field_image:
+    type: image
+    weight: '0'
+    settings:
+      image_style: ''
+      image_link: ''
+    label: hidden

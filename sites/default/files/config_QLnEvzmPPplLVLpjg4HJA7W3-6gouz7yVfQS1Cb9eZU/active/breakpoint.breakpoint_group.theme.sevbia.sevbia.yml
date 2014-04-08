@@ -1,0 +1,12 @@
+id: theme.sevbia.sevbia
+uuid: 86701860-1924-423e-8a00-e753b19c89bd
+name: sevbia
+label: Sevbia
+breakpoints:
+  - theme.sevbia.mobile
+  - theme.sevbia.narrow
+  - theme.sevbia.wide
+source: sevbia
+sourceType: theme
+status: '1'
+langcode: en

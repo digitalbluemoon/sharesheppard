@@ -1,0 +1,31 @@
+id: sevbia.anonymousmenu
+uuid: cbf4a2ba-6b91-49fc-9648-72f35cb79844
+weight: '-19'
+status: '1'
+langcode: en
+region: header
+plugin: 'custom_block:c6847dab-75b4-453c-9200-fb3a96e42765'
+settings:
+  status: '1'
+  info: ''
+  view_mode: full
+  label: 'Anonymous menu'
+  module: custom_block
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '0'
+    pages: ''
+  role:
+    roles:
+      anonymous: anonymous
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-role

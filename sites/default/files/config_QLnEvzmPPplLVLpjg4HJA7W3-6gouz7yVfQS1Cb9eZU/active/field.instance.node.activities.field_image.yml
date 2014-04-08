@@ -1,0 +1,24 @@
+id: node.activities.field_image
+uuid: 2f021ae3-be3d-437b-a805-5e327a6d5502
+status: '1'
+langcode: en
+field_uuid: 51387e95-3547-43fa-8e00-a21e8ac0adf6
+entity_type: node
+bundle: activities
+label: Image
+description: ''
+required: '0'
+default_value: {  }
+default_value_function: ''
+settings:
+  file_directory: ''
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: '0'
+  alt_field_required: '0'
+  title_field: '0'
+  title_field_required: '0'
+  default_image: '0'
+field_type: image

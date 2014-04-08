@@ -1,0 +1,14 @@
+id: node.business.field_phone
+uuid: a115af51-8d4d-475e-bb07-0707b2821894
+status: '1'
+langcode: en
+field_uuid: 03d0641d-fc14-4df0-ae00-be5b306d625d
+entity_type: node
+bundle: business
+label: 'Phone:'
+description: ''
+required: '1'
+default_value: {  }
+default_value_function: ''
+settings: {  }
+field_type: telephone

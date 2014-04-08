@@ -1,0 +1,11 @@
+name: 'SHEPPARD EAST Village'
+mail: ernie@sharesheppard.ca
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: node/7
+admin_compact_mode: '0'
+weight_select_max: '100'
+langcode: en
+mail_notification: ''

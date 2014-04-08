@@ -1,0 +1,30 @@
+id: sevbia.monasheppard
+uuid: d8dfafe8-80bd-4bbe-9813-19c3ee577ba8
+weight: '-22'
+status: '1'
+langcode: en
+region: sidebar_first
+plugin: 'custom_block:ec04be5c-0d58-422e-9b00-de273673dbc5'
+settings:
+  status: '1'
+  info: ''
+  view_mode: full
+  label: 'Mona Sheppard'
+  module: custom_block
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '1'
+    pages: '<front>'
+  role:
+    roles: {  }
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-path

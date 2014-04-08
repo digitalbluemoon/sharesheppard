@@ -1,0 +1,30 @@
+id: sevbia.twitter
+uuid: ff3550e8-440c-4fcc-af34-52d7e070b8b9
+weight: '-18'
+status: '0'
+langcode: en
+region: '-1'
+plugin: 'custom_block:9cb70da7-9b7c-4786-8800-fe060a1d254d'
+settings:
+  status: '1'
+  info: ''
+  view_mode: full
+  label: Twitter
+  module: custom_block
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '0'
+    pages: ''
+  role:
+    roles: {  }
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-path

@@ -1,0 +1,8 @@
+id: default
+uuid: 1b878f19-94b5-4556-a64b-75e0693a7014
+label: Default
+links:
+  adc47c90-b00f-478b-a400-ca82b0f8b6ea: adc47c90-b00f-478b-a400-ca82b0f8b6ea
+  9edbe288-a16f-46ac-8000-f31f285b1375: 9edbe288-a16f-46ac-8000-f31f285b1375
+status: '1'
+langcode: en

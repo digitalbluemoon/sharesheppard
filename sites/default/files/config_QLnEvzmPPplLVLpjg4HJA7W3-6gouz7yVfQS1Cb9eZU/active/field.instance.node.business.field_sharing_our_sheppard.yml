@@ -1,0 +1,19 @@
+id: node.business.field_sharing_our_sheppard
+uuid: 3b447c96-7299-4452-9f00-f70becd9e1b5
+status: '1'
+langcode: en
+field_uuid: df008f85-0c2a-4c06-9304-4f83181f5dd8
+entity_type: node
+bundle: business
+label: 'Sharing our Sheppard'
+description: ''
+required: '0'
+default_value:
+  -
+    url: 'http://sevbia.rgenta.com/sharing-our-sheppard'
+    title: 'Sharing our Sheppard'
+    attributes: {  }
+default_value_function: ''
+settings:
+  title: '1'
+field_type: link

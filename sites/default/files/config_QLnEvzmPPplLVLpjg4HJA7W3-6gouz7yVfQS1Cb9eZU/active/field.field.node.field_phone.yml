@@ -1,0 +1,14 @@
+id: node.field_phone
+uuid: 03d0641d-fc14-4df0-ae00-be5b306d625d
+status: '1'
+langcode: en
+name: field_phone
+entity_type: node
+type: telephone
+settings: {  }
+module: telephone
+active: '1'
+locked: '0'
+cardinality: '1'
+translatable: '0'
+indexes: {  }

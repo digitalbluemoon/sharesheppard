@@ -1,0 +1,14 @@
+id: node.business.field_email
+uuid: dc4024a8-b11a-48e3-9103-0391d9c17958
+status: '1'
+langcode: en
+field_uuid: feda97d8-fbc3-4e42-bd5d-93970dec35a0
+entity_type: node
+bundle: business
+label: E-Mail
+description: 'Business contact e-mail.'
+required: '0'
+default_value: {  }
+default_value_function: ''
+settings: {  }
+field_type: email

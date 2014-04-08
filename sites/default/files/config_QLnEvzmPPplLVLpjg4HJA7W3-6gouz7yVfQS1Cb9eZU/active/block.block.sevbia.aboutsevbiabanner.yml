@@ -1,0 +1,30 @@
+id: sevbia.aboutsevbiabanner
+uuid: 9cecea69-adb8-4362-9a15-210d3189eef8
+weight: '-20'
+status: '1'
+langcode: en
+region: featured
+plugin: 'custom_block:e9d01b4c-f5a4-42d4-8300-c4ca94bfe363'
+settings:
+  status: '1'
+  info: ''
+  view_mode: full
+  label: 'About Sevbia Banner'
+  module: custom_block
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '1'
+    pages: "node/1\r\nnews\r\nbusiness-directory"
+  role:
+    roles: {  }
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-path

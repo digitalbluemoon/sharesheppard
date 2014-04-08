@@ -1,0 +1,19 @@
+id: node.activities.field_happen
+uuid: d31289ac-2c42-4803-8810-160502730dcc
+status: '1'
+langcode: en
+field_uuid: 6b2a9605-6814-4503-9c00-f59c0db6f0ad
+entity_type: node
+bundle: activities
+label: happen
+description: ''
+required: '0'
+default_value:
+  -
+    url: 'http://sevbia.rgenta.com/whats-happening'
+    title: 'Read More'
+    attributes: {  }
+default_value_function: ''
+settings:
+  title: '1'
+field_type: link

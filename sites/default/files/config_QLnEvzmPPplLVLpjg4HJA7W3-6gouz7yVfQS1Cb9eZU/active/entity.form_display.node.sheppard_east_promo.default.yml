@@ -1,0 +1,19 @@
+id: node.sheppard_east_promo.default
+uuid: 4c60c42e-3ad8-4eee-9100-c13946feee01
+targetEntityType: node
+bundle: sheppard_east_promo
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: '0'
+    settings:
+      rows: '9'
+      summary_rows: '3'
+      placeholder: ''
+  field_promo_image:
+    weight: '1'
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    type: image_image

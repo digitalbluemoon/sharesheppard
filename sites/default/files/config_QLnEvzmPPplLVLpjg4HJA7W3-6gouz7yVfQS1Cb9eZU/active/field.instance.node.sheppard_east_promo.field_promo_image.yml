@@ -1,0 +1,24 @@
+id: node.sheppard_east_promo.field_promo_image
+uuid: 233dbccd-8688-4298-a25b-91d4d7d5d573
+status: '1'
+langcode: en
+field_uuid: 2a98e8bc-f6b7-4452-bc1b-276df7b25b0e
+entity_type: node
+bundle: sheppard_east_promo
+label: Image
+description: ''
+required: '0'
+default_value: {  }
+default_value_function: ''
+settings:
+  file_directory: ''
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: '0'
+  alt_field_required: '0'
+  title_field: '0'
+  title_field_required: '0'
+  default_image: '0'
+field_type: image

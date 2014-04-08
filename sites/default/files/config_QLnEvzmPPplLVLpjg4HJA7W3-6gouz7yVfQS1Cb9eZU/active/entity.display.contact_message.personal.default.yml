@@ -1,0 +1,24 @@
+id: contact_message.personal.default
+uuid: 9db96cec-bd48-468f-a803-3fb0f10c242f
+targetEntityType: contact_message
+bundle: personal
+mode: default
+content:
+  field_user_n:
+    type: text_default
+    weight: '0'
+    settings: {  }
+    label: above
+  field_email:
+    type: text_default
+    weight: '1'
+    settings: {  }
+    label: above
+  message:
+    weight: '0'
+    visible: '1'
+  field_message:
+    type: text_default
+    weight: '0'
+    settings: {  }
+    label: above

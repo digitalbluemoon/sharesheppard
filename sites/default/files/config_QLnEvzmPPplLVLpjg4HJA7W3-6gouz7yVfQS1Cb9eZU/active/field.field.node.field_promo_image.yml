@@ -1,0 +1,29 @@
+id: node.field_promo_image
+uuid: 2a98e8bc-f6b7-4452-bc1b-276df7b25b0e
+status: '1'
+langcode: en
+name: field_promo_image
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image: '0'
+  column_groups:
+    file:
+      label: File
+      columns:
+        - target_id
+        - width
+        - height
+    alt:
+      label: Alt
+      translatable: '1'
+    title:
+      label: Title
+      translatable: '1'
+module: image
+active: '1'
+locked: '0'
+cardinality: '-1'
+translatable: '0'
+indexes: {  }

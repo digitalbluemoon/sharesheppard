@@ -1,0 +1,26 @@
+id: sevbia.footer3
+uuid: 1bd18612-371a-490c-ac46-7098e4150fc5
+weight: '-17'
+status: '1'
+langcode: en
+region: footer_thirdcolumn
+plugin: 'custom_block:8cf36abf-dcea-4b2c-b800-a842a1456df8'
+settings:
+  status: '1'
+  info: ''
+  view_mode: full
+  label: Footer3
+  module: custom_block
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '0'
+    pages: ''
+  role:
+    roles: {  }
+  node_type:
+    types:
+      article: '0'
+      page: '0'
+  visibility__active_tab: edit-visibility-path

@@ -1,0 +1,13 @@
+id: custom_block.basic.default
+uuid: ad767a1e-5c21-4a0b-8306-6fe5cbf4a412
+targetEntityType: custom_block
+bundle: basic
+mode: default
+content:
+  block_body:
+    type: text_textarea_with_summary
+    weight: '0'
+    settings:
+      rows: '9'
+      summary_rows: '3'
+      placeholder: ''

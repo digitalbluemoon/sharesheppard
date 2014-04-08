@@ -1,0 +1,38 @@
+name: Sevbia
+type: theme
+description: 'A flexible, recolorable theme with many regions and a responsive, mobile-first layout.'
+package: Core
+version: VERSION
+core: 8.x
+stylesheets:
+  all:
+    - css/style.css
+  print:
+    - css/print.css
+ckeditor_stylesheets:
+  - css/ckeditor-iframe.css
+scripts:
+  - js/sevbia.js
+  - js/bootstrap.js
+regions:
+  header: Header
+  help: Help
+  content_top: 'Content top'
+  footer_top: 'Footer top'
+  highlighted: Highlighted
+  featured: Featured
+  content: Content
+  navigation: Navigation
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  triptych_first: 'Triptych first'
+  triptych_middle: 'Triptych middle'
+  triptych_last: 'Triptych last'
+  footer_firstcolumn: 'Footer first column'
+  footer_secondcolumn: 'Footer second column'
+  footer_thirdcolumn: 'Footer third column'
+  footer_fourthcolumn: 'Footer fourth column'
+  footer: Footer
+# @todo D8: Remove once themes have to be installed.
+settings:
+  shortcut_module_link: '0'

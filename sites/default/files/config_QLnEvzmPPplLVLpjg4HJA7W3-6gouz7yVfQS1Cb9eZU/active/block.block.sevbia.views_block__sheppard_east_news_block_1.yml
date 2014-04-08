@@ -1,0 +1,28 @@
+id: sevbia.views_block__sheppard_east_news_block_1
+uuid: 97fdd3ad-c5e1-46a5-8304-4bdbb4d1e14e
+weight: '-16'
+status: '1'
+langcode: en
+region: sidebar_second
+plugin: 'views_block:sheppard_east_news-block_1'
+settings:
+  items_per_page: none
+  label: ''
+  module: views
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '1'
+    pages: "<front>\r\nnode/1\r\nbusiness-directory\r\nwhats-happening\r\ndirectory\r\nnews"
+  role:
+    roles: {  }
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-path

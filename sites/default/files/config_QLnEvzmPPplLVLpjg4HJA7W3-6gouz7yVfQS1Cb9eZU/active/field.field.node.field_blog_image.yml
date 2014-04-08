@@ -1,0 +1,29 @@
+id: node.field_blog_image
+uuid: 1dd7b143-46b2-4a6d-ae2c-44e5bf3e66d6
+status: '1'
+langcode: en
+name: field_blog_image
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image: '0'
+  column_groups:
+    file:
+      label: File
+      columns:
+        - target_id
+        - width
+        - height
+    alt:
+      label: Alt
+      translatable: '1'
+    title:
+      label: Title
+      translatable: '1'
+module: image
+active: '1'
+locked: '0'
+cardinality: '1'
+translatable: '0'
+indexes: {  }

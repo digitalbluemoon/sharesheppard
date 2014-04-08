@@ -1,0 +1,12 @@
+id: node.activities.teaser
+uuid: 80adee4a-0c3c-48c9-8247-71bf3ff03a2c
+targetEntityType: node
+bundle: activities
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: '0'
+    settings:
+      trim_length: '600'

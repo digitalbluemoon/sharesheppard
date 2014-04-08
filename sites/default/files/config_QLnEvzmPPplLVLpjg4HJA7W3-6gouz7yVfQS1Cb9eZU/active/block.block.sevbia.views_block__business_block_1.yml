@@ -1,0 +1,28 @@
+id: sevbia.views_block__business_block_1
+uuid: f9003d26-258b-44e9-9f05-5f378f16ebf8
+weight: '-21'
+status: '0'
+langcode: en
+region: '-1'
+plugin: 'views_block:business-block_1'
+settings:
+  items_per_page: none
+  label: ''
+  module: views
+  label_display: '0'
+  cache: '-1'
+visibility:
+  path:
+    visibility: '1'
+    pages: '<front>'
+  role:
+    roles: {  }
+  node_type:
+    types:
+      activities: '0'
+      article: '0'
+      blog: '0'
+      business: '0'
+      page: '0'
+      sheppard_east_promo: '0'
+  visibility__active_tab: edit-visibility-path

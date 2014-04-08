@@ -1,0 +1,15 @@
+id: node.field_address
+uuid: f1a1543e-64ef-4773-9804-4d98470bc938
+status: '1'
+langcode: en
+name: field_address
+entity_type: node
+type: text
+settings:
+  max_length: '255'
+module: text
+active: '1'
+locked: '0'
+cardinality: '1'
+translatable: '0'
+indexes: {  }

@@ -1,0 +1,18 @@
+type: business
+uuid: 8bdb53c5-84ee-48ed-844d-77b159305f6e
+name: Business
+description: 'This content type is used to creat a business info'
+help: ''
+has_title: '1'
+title_label: 'Business Name'
+settings:
+  node:
+    preview: '1'
+    options:
+      status: status
+      promote: '0'
+      sticky: '0'
+      revision: '0'
+    submitted: '0'
+status: '1'
+langcode: en

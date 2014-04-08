@@ -1,0 +1,28 @@
+id: node.blog.default
+uuid: f571a7c2-3df0-4b71-b953-8396b84e8861
+targetEntityType: node
+bundle: blog
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: '2'
+    settings:
+      rows: '9'
+      summary_rows: '3'
+      placeholder: ''
+  field_tag:
+    type: text_textfield
+    weight: '3'
+    settings:
+      size: '60'
+      placeholder: ''
+  title:
+    weight: '0'
+    visible: '1'
+  field_image:
+    weight: '4'
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    type: image_image
